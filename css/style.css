@@ -87,9 +87,22 @@ body {
   border-radius: 20px;
   padding: 16px;
 }
+@media (max-width: 400px) {
+  .box {
+    max-width: 100%;
+    margin: 0 15px;
+    height: auto;
+    max-height: initial;
+  }
+}
 
 .layer-1 {
   margin-bottom: 24px;
+}
+@media (max-width: 400px) {
+  .layer-1 img {
+    width: 100%;
+  }
 }
 
 .layer-2 .headline {
